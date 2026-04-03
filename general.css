@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Chibby';          /* Nombre que le das a la fuente */
+  src: url('../fonts/Super\ Chiby\ TIPOGRAFIA.ttf') format('truetype');
+}
+
+.logo img{
+    border: 2px;
+    border-radius: 20px;
+    
+}
+li{
+    display: flex;
+    align-items: center;
+   
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #C08CFA;
+    
+
+}
+body{
+    background-color: #F9C7D2;
+}
+nav{
+    background-color: #C08CFA;
+    display: flex;
+    background-size:cover
+   
+}
+.liStart{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+.navbar ul {
+  list-style: none;         
+  margin: 0;
+  padding: 0;
+  display: flex;              /* Coloca los <li> en línea */
+  gap: 20px;                  /* Espacio entre enlaces */
+}
+.navbar a {
+  color: #FBD98F;                 
+  text-decoration: none;      
+  transition:  0.3s;     
+  font-family: 'Chibby', sans-serif; 
+  font-size: 27px;
+  color: white;
+   -webkit-text-stroke: black 1px;
+
+}
+/* Efecto hover */
+.navbar a:hover {
+  color: #71DFD4;              /* Cambia color al pasar el cursor */
+}
+
+/* estilo para pestaña de ¿quiénes somos? */
+.titulo-somos{
+    text-align: center;
+    font-family: 'Chibby', sans-serif;
+    color: #facf6c;
+    -webkit-text-stroke: black 1px;
+    margin-top: 20px;
+}
+
+.texto-somos{
+    text-align: center;
+    font-family: 'Chibby', sans-serif;
+    color: #C08CFA;
+    -webkit-text-stroke: black 1px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+/* estilo para pestaña de redes sociales*/
+.titulo-redes{
+    text-align: center;
+    font-family: 'Chibby', sans-serif;
+    color: #facf6c;
+    -webkit-text-stroke: black 1px;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.texto-redes{
+    text-align: center;
+    font-family: 'Chibby', sans-serif;
+    color: #C08CFA;
+    -webkit-text-stroke: black 0.5px;
+    padding: 20px;
+    font-size: 30px;
+}
